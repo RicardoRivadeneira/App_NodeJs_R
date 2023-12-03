@@ -25,6 +25,7 @@ Para instalar las dependencias, ejecuta el siguiente comando en tu terminal:
 ```bash
 npm install express
 ```
+ <img src="Evidencias/Descarga_Express.png" alt="Evidencia1" width="600"/><br>
 ## Rutas
 
 ### Ruta Principal
@@ -35,9 +36,9 @@ La **ruta principal** '/' está configurada en el archivo `src/routes/index_rout
 
 ### Ruta Secundaria
 
-La **ruta secundaria** '/index.html' está configurada en el archivo `public/index.html`. Esta ruta es accesible desde la ruta principal a través de un enlace. Al acceder a esta ruta  se mostrará una página HTML simple con un encabezado, un párrafo y un enlace. La página utiliza estilos definidos en un archivo CSS ubicado en `public/css/style.css`. Este contenido estático es accesible desde la carpeta `public`.
+La **ruta secundaria** '/index.html' está configurada en el archivo `public/index.html`. Esta ruta es accesible desde la ruta principal a través de un enlace. Al acceder a esta ruta  se mostrará una página HTML simple con un encabezado, un párrafo y un enlace. La página utiliza estilos definidos en un archivo CSS ubicado en `public/css/style.css`. Este contenido estático es accesible desde la carpeta `public`.<br>
 <img src="Evidencias/Ruta_Secundaria_R.png" alt="Evidencia1" width="600"/><br>
 
-Cabe decir, que para poder acceder a la ruta secundaria, al estar en nuestra ruta Principal, en la URL de nuestro navegador, solo debemos de colocar cualquier texto después de `localhost:3000` agregando `/*cualquiercosa*` y dar **Enter**, de esa forma se llevará a la Ruta Secundaria:
+Cabe decir, que para poder acceder a la ruta secundaria, al estar en nuestra ruta Principal, en la URL de nuestro navegador, solo debemos de colocar cualquier texto después de [localhost:3000](localhost:3000) agregando `/cualquiercosa` y dar **Enter**, de esa forma se llevará a la Ruta Secundaria:<br>
 <img src="Evidencias/Ruta_Secundaria_S.png" alt="Evidencia1" width="600"/><br>
 
