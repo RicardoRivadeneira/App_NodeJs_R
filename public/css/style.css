@@ -1,0 +1,51 @@
+body {
+    background-color: #222;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial Black', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 20px 0;
+    text-align: center;
+    animation: pulseAnimation 2s ease-in-out infinite;
+}
+
+p {
+    font-size: 3rem;
+    margin: 10px 0;
+    text-align: center;
+    color: #45aa5a;
+}
+
+a {
+    color: #ffcc00;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffea00;
+    text-decoration: underline;
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
