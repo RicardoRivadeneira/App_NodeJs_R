@@ -31,10 +31,13 @@ npm install express
 
 La **ruta principal** '/' está configurada en el archivo `src/routes/index_routes.js`. Esta ruta es la que se carga inicialmente al acceder al servidor. Al acceder a esta ruta en un navegador web, se mostrará un mensaje con un diseño específico. Se muestra un mensaje personalizado en un contenedor con estilos aplicados. Este mensaje se genera dinámicamente a través de un controlador en `src/controllers/index_controller.js`.
 
-  <img src="Evidencias/RutaPrincipal.png" alt="Evidencia1" width="600"/><br>
+  <img src="Evidencias/Ruta_Principal.png" alt="Evidencia1" width="600"/><br>
 
 ### Ruta Secundaria
 
 La **ruta secundaria** '/index.html' está configurada en el archivo `public/index.html`. Esta ruta es accesible desde la ruta principal a través de un enlace. Al acceder a esta ruta  se mostrará una página HTML simple con un encabezado, un párrafo y un enlace. La página utiliza estilos definidos en un archivo CSS ubicado en `public/css/style.css`. Este contenido estático es accesible desde la carpeta `public`.
-<img src="Evidencias/RutaSecundaria_R.png" alt="Evidencia1" width="600"/><br>
+<img src="Evidencias/Ruta_Secundaria_R.png" alt="Evidencia1" width="600"/><br>
+
+Cabe decir, que para poder acceder a la ruta secundaria, al estar en nuestra ruta Principal, en la URL de nuestro navegador, solo debemos de colocar cualquier texto después de `localhost:3000` agregando `/*cualquiercosa*` y dar **Enter**, de esa forma se llevará a la Ruta Secundaria:
+<img src="Evidencias/Ruta_Secundaria_S.png" alt="Evidencia1" width="600"/><br>
 
